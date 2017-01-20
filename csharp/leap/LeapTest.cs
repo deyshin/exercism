@@ -1,8 +1,11 @@
 using NUnit.Framework;
+using Exercism.Year;
 
 [TestFixture]
 public class LeapTest
 {
+    Year Year = new Year();
+    
     [Test]
     public void Valid_leap_year()
     {
