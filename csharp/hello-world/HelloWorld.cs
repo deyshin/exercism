@@ -11,9 +11,7 @@ namespace HelloWorldProject
 
         public string Hello(string name)
         {
-            var nameAdd = name == null ? "World" : name;
-
-            return "Hello, " + nameAdd + "!";
+            return "Hello, " + ("World" ?? name;) + "!";
         }
     }
 }
