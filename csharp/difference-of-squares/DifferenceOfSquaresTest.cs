@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using Exercism.DifferenceOfSqures;
 
 [TestFixture]
 public class DifferenceOfSquaresTests
