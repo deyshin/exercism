@@ -1,34 +1,19 @@
 ﻿using System;
-namespace Exercism.DifferenceOfSqures
+
+public static class Squares
 {
-    public class Squares
+    public static int SquareOfSums(int max)
     {
-        private int _max;
+        throw new NotImplementedException("You need to implement this function.");
+    }
 
-        public Squares (int m)
-        { _max = m;}
+    public static int SumOfSquares(int max)
+    {
+        throw new NotImplementedException("You need to implement this function.");
+    }
 
-
-        public int SquareOfSums()
-        {
-            var sum = (int)0;
-
-            for (int i = 1; i <= _max; i++)
-            { sum += i; }
-
-            var square = (int)Math.Pow(sum, 2);
-
-            return square;
-        }
-
-        public int SumOfSquares()
-        {
-            return (int)0;
-        }
-
-        public int DifferenceOfSquares()
-        {
-            return (int)0;
-        }
+    public static int DifferenceOfSquares(int max)
+    {
+        throw new NotImplementedException("You need to implement this function.");
     }
 }
