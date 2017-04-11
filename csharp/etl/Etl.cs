@@ -5,6 +5,14 @@ public static class ETL
 {
     public static IDictionary<string, int> Transform(IDictionary<int, IList<string>> old)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        var newDictionary = new Dictionary<string, int>();
+
+        foreach (var score in old)
+        {
+            foreach(var letter in score.Value)
+            { newDictionary.Add(letter.ToLower(), score.Key); }
+        }
+
+        return newDictionary;
     }
 }
