@@ -18,8 +18,7 @@ public class School
     {
         return studentList
                 .Select(s => s.Name)
-                .OrderBy(s => s)
-                .ToArray();
+                .OrderBy(s => s);
     }
 
     public IEnumerable<string> Grade(int grade)
@@ -27,8 +26,7 @@ public class School
         return studentList
                 .Where(s => s.Grade == grade)
                 .Select(s => s.Name)
-                .OrderBy(s => s)
-                .ToArray();
+                .OrderBy(s => s);
     }
 
     public class Student
