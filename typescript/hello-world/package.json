@@ -19,7 +19,7 @@
     "jest": "^19.0.2",
     "ts-jest": "^19.0.0",
     "tslint": "^4.5.1",
-    "typescript": "^2.2.1"
+    "typescript": "^2.2.2"
   },
   "jest": {
     "transform": {
